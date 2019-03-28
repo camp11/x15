@@ -603,29 +603,21 @@ if($message['type']=='text') {
     array (
       'type' => 'separator',
     ),
-      2 => 
-      array (
-        'type' => 'text',
-        'text' => 'KING',
-        'size' => 'xl',
-        'align' => 'center',
-        'weight' => 'bold',
-        'color' => '#00ff00',
-      ),
-      3 => 
-      array (
-        'type' => 'text',
-        'text' => 'Cianjur,29 Juli 1984',
-        'size' => 'lg',
-        'align' => 'center',
-      ),
-      4 => 
-      array (
-        'type' => 'text',
-        'text' => 'FOUNDER',
-        'size' => 'lg',
-        'align' => 'center',
-      ),
+    2 => 
+    array (
+      'type' => 'text',
+      'text' => 'Nama : King',
+    ),
+    3 => 
+    array (
+      'type' => 'text',
+      'text' => 'TTL: Cianjur,29 Juli 1984',
+    ),
+    4 => 
+    array (
+      'type' => 'text',
+      'text' => 'Jabatan : FOUNDER',
+    ),
     ),
   ),
   'footer' => 
@@ -649,7 +641,7 @@ if($message['type']=='text') {
           'uri' => 'https://www.smule.com',
         ),
         'style' => 'primary',
-        'color' => '#0000ff',
+        'color' => '#95a31f',
       ),
     ),
   ),
