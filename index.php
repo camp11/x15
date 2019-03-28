@@ -583,6 +583,24 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'bubble',
+  'header' => 
+  array (
+    'type' => 'box',
+    'layout' => 'vertical',
+    'contents' => 
+    array (
+      0 => 
+      array (
+        'type' => 'text',
+        'text' => 'Header text',
+      ),
+    ),
+  ),
+  'hero' => 
+  array (
+    'type' => 'image',
+    'url' => 'https://example.com/flex/images/image.jpg',
+  ),
   'body' => 
   array (
     'type' => 'box',
@@ -591,9 +609,8 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'type' => 'image',
-        'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553759873/24/Ofc/1040.jpg',
-        'size' => 'full',
+        'type' => 'text',
+        'text' => 'Body text',
       ),
     ),
   ),
@@ -605,22 +622,14 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'type' => 'spacer',
-        'size' => 'xl',
-      ),
-      1 => 
-      array (
-        'type' => 'button',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'Tap me',
-          'uri' => 'https://www.smule.com/KOPI24KARAT',
-        ),
-        'style' => 'primary',
-        'color' => '#0000ff',
+        'type' => 'text',
+        'text' => 'Footer text',
       ),
     ),
+  ),
+  'styles' => 
+  array (
+    'comment' => 'See the example of a bubble style object',
   ),
 )
             )
