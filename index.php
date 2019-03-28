@@ -62,7 +62,7 @@ if ($type == 'join' || $command == 'Help') {
 if ($type == 'join' || $command == 'dev') {
     $text .= " \n";
     $text .= " 􀀹⚡⚡⚡⚡⚡⚡⚡⚡􀀹\n";
-    $text .= "======[HALLO SOBAT HFI]======";
+    $text .= "======[HALLO SOBAT KOPI24KARAT]======";
     $text .= " \n";
     $text .= "Terima Kasih Atas Invite nya\n";
     $text .= "=======================\n";	
@@ -86,8 +86,7 @@ if ($type == 'text' || $command == 'Wc') {
     $text .= " \n";
     $text .= "       ⤵Selamat Datang di⤵\n";
     $text .= "=======================\n";	
-    $text .= "              H F I\n";	
-    $text .= " HAPPY FAMILY INDONESIA";
+    $text .= "           KOPI24KARAT\n";
     $text .= " \n";
     $text .= "=======================\n";	
     $text .= "  Jangan Lupa Cek Note ya\n";
@@ -117,7 +116,7 @@ if ($type == 'text' || $command == 'Key') {
     $text .= "> Hai\n";
     $text .= "> Halo\n";
     $text .= "> Ok\n";
-    $text .= "> Udah\n";
+    $text .= "> kangen [sticker]\n";
     $text .= "> haha [sticker]\n";
     $text .= "> masa [sticker]";
     $balas = array(
@@ -388,7 +387,7 @@ if($message['type']=='text') {
                 array (
   'type' => 'imagemap',
   'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553758996/24/Wc',
-  'altText' => 'WELCOME TO HFI',
+  'altText' => 'WELCOME TO KOPI24KARAT',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -435,8 +434,8 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1552224710/HFI2/OFC',
-  'altText' => 'OFFICIAL HFI',
+  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553759873/24/Ofc/1040.jpg',
+  'altText' => 'OFFICIAL KOPI24KARAT',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -447,7 +446,7 @@ if($message['type']=='text') {
     0 => 
     array (
       'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/OFFICIAL_HFI',
+      'linkUri' => 'https://www.smule.com/KOPI24KARAT',
       'area' => 
       array (
         'x' => 520,
@@ -464,13 +463,13 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'admin' || $command == 'Admin' ) {
+	    if ($command == 'Staff' || $command == 'staff' ) {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'ALL STAFF HFI',
+  'altText' => 'ALL STAFF KOPI24KARAT',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -478,42 +477,32 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1552274132/HFI2/ADMIN/1552274055900.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553786723/24/Staff/20190328_220640.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/Abiebakrie_',
+          'uri' => 'https://www.smule.com/Lusi_24k',
         ),
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1552274161/HFI2/ADMIN/1552274057863.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553786725/24/Staff/20190328_220926.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/HFI_HanyBSF',
+          'uri' => 'https://www.smule.com/1V_raseking_24k',
         ),
       ),
       2 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1552274148/HFI2/ADMIN/1552274060533.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553786725/24/Staff/20190328_221237.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/HFI_ZahraBDG',
-        ),
-      ),
-      3 => 
-      array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1552310818/HFI2/ADMIN/1552274062337.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/HFI_Abdi_Th3a',
+          'uri' => 'https://www.smule.com/siti_IVSIRN_24k',
         ),
       ),
     ),
@@ -521,7 +510,7 @@ if($message['type']=='text') {
 ),
                 array (
   'type' => 'template',
-  'altText' => 'ALL STAFF HFI',
+  'altText' => 'ALL STAFF KOPI24KARAT',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -529,42 +518,32 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1552274148/HFI2/ADMIN/1552274064353.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553786719/24/Staff/20190328_221541.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/LEO_ISSC_NLGASIC',
+          'uri' => 'https://www.smule.com/RESC_NovB4SS_24k',
         ),
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1552274135/HFI2/ADMIN/1552274067077.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553786727/24/Staff/20190328_222226.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/HFI_Yul176',
+          'uri' => 'https://www.smule.com/VstaR_arman_24k',
         ),
       ),
       2 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1552274151/HFI2/ADMIN/1552274068869.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553786723/24/Staff/20190328_222438.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/HFI_JAGAT_PESEK',
-        ),
-      ),
-      3 => 
-      array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1552274143/HFI2/ADMIN/1552274070949.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/HFI_DW1C4_S2C',
+          'uri' => 'https://www.smule.com/ECAS_OneBOS24K',
         ),
       ),
     ),
@@ -576,80 +555,65 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 't' || $command == 'T' ) {
-
+	    if ($command == 'Haha' || $command == 'haha' ) {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
-  'type' => 'flex',
-  'altText' => 'this is a flex message',
-  'contents' => 
+  'type' => 'template',
+  'altText' => 'LOVE FIS mengirim sticker',
+  'template' => 
   array (
-  'type' => 'bubble',
-  'body' => 
-  array (
-    'type' => 'box',
-    'layout' => 'vertical',
-    'contents' => 
+    'type' => 'image_carousel',
+    'columns' => 
     array (
       0 => 
       array (
-        'type' => 'image',
-        'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553782971/24/Staff/20190328_212225.png',
-        'size' => 'full',
-      ),
-    1 => 
-    array (
-      'type' => 'separator',
-    ),
-    2 => 
-    array (
-      'type' => 'text',
-      'text' => 'Nama : King',
-    ),
-    3 => 
-    array (
-      'type' => 'text',
-      'text' => 'TTL: Cianjur,29 Juli 1984',
-    ),
-    4 => 
-    array (
-      'type' => 'text',
-      'text' => 'Jabatan : FOUNDER',
-    ),
-    ),
-  ),
-  'footer' => 
-  array (
-    'type' => 'box',
-    'layout' => 'vertical',
-    'contents' => 
-    array (
-      0 => 
-      array (
-        'type' => 'spacer',
-        'size' => 'xl',
-      ),
-      1 => 
-      array (
-        'type' => 'button',
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/98063989/IOS/sticker_animation@2x.png;compress=true',
         'action' => 
         array (
-          'type' => 'uri',
-          'label' => 'Follow on Smule >Click here<',
-          'uri' => 'https://www.smule.com',
+          'type' => 'message',
+          'text' => 'haha',
         ),
-        'style' => 'primary',
-        'color' => '#95a31f',
       ),
     ),
   ),
-),
 )
             )
         );
     }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Kangen' || $command == 'kangen' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'LOVE FIS mengirim sticker',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/98063997/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'kangen',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+
 //pesan bergambar
 if($message['type']=='text') {
 	    if ($command == 'masa' || $command == 'Masa' ) {
