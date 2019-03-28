@@ -582,26 +582,43 @@ if($message['type']=='text') {
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1552226237/HFI2/STRUKTUR',
-  'altText' => 'HFI',
-  'baseSize' => 
+  'type' => 'bubble',
+  'body' => 
   array (
-    'height' => 1040,
-    'width' => 1040,
-  ),
-  'actions' => 
-  array (
-    0 => 
+    'type' => 'box',
+    'layout' => 'vertical',
+    'contents' => 
     array (
-      'type' => 'message',
-      'text' => 'Official',
-      'area' =>
+      0 => 
       array (
-        'x' => 520,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
+        'type' => 'image',
+        'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553759873/24/Ofc/1040.jpg',
+        'size' => 'full',
+      ),
+    ),
+  ),
+  'footer' => 
+  array (
+    'type' => 'box',
+    'layout' => 'vertical',
+    'contents' => 
+    array (
+      0 => 
+      array (
+        'type' => 'spacer',
+        'size' => 'xl',
+      ),
+      1 => 
+      array (
+        'type' => 'button',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'Tap me',
+          'uri' => 'https://www.smule.com/KOPI24KARAT',
+        ),
+        'style' => 'primary',
+        'color' => '#0000ff',
       ),
     ),
   ),
