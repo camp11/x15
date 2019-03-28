@@ -561,7 +561,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'LOVE FIS mengirim sticker',
+  'altText' => 'KOPI24KARAT mengirim sticker',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -591,7 +591,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'LOVE FIS mengirim sticker',
+  'altText' => 'KOPI24KARAT mengirim sticker',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -623,7 +623,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'EMON mengirim sticker',
+  'altText' => 'KOPI24KARAT mengirim sticker',
   'template' => 
   array (
     'type' => 'image_carousel',
