@@ -596,14 +596,14 @@ if($message['type']=='text') {
       0 => 
       array (
         'type' => 'text',
-        'text' => 'Header text',
+        'text' => 'LIST STAFF KOPI24KARAT',
       ),
     ),
   ),
   'hero' => 
   array (
     'type' => 'image',
-    'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553759873/24/Ofc/1040.jpg',
+    'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553758996/24/Wc/1040.jpg',
   ),
   'body' => 
   array (
@@ -614,7 +614,7 @@ if($message['type']=='text') {
       0 => 
       array (
         'type' => 'text',
-        'text' => 'tes tess',
+        'text' => 'Body text',
       ),
     ),
   ),
@@ -627,24 +627,29 @@ if($message['type']=='text') {
       0 => 
       array (
         'type' => 'text',
-        'text' => 'tesss',
+        'text' => 'Footer text',
       ),
     ),
   ),
-  "styles": (
-    "header": (
-      "backgroundColor": "#00ffff"
+  'styles' => 
+  array (
+    'header' => 
+    array (
+      'backgroundColor' => '#00ffff',
     ),
-    "hero": (
-      "separator": true,
-      "separatorColor": "#000000"
+    'hero' => 
+    array (
+      'separator' => true,
+      'separatorColor' => '#000000',
     ),
-    "footer": (
-      "backgroundColor": "#00ffff",
-      "separator": true,
-      "separatorColor": "#000000"
-    )
-  )
+    'footer' => 
+    array (
+      'backgroundColor' => '#00ffff',
+      'separator' => true,
+      'separatorColor' => '#000000',
+    ),
+  ),
+),
 )
             )
         );
