@@ -596,16 +596,17 @@ if($message['type']=='text') {
       0 => 
       array (
         'type' => 'image',
-        'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553781528/24/Staff/20190328_205826.jpg',
+        'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553782971/24/Staff/20190328_212225.png',
+        'size' => 'full',
       ),
     1 => 
     array (
-      'type' => 'filler',
+      'type' => 'separator',
     ),
     2 => 
     array (
       'type' => 'text',
-      'text' => 'Text in the box',
+      'text' => 'Text in the box','Text in the box','Text in the box',
     ),
     ),
   ),
