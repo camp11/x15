@@ -576,7 +576,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Udah' || $command == 'udah' ) {
+	    if ($command == 'tes' || $command == 'Tes' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
@@ -607,17 +607,61 @@ if($message['type']=='text') {
   ),
   'body' => 
   array (
+  'type' => 'bubble',
+  'body' => 
+  array (
     'type' => 'box',
-    'layout' => 'vertical',
+    'layout' => 'horizontal',
     'contents' => 
     array (
       0 => 
       array (
-        'type' => 'text',
-        'text' => 'Body text',
+        'type' => 'box',
+        'layout' => 'vertical',
+        'contents' => 
+        array (
+          0 => 
+          array (
+            'type' => 'image',
+            'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553780580/24/Staff/1553780525922.jpg',
+            'aspectRatio' => '1:2',
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'type' => 'box',
+        'layout' => 'vertical',
+        'contents' => 
+        array (
+          0 => 
+          array (
+            'type' => 'text',
+            'text' => 'flex=1',
+            'flex' => 1,
+            'gravity' => 'center',
+          ),
+          1 => 
+          array (
+            'type' => 'separator',
+          ),
+          2 => 
+          array (
+        'type' => 'button',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'Tap me',
+          'uri' => 'https://www.smule.com',
+        ),
+        'style' => 'primary',
+        'color' => '#0000ff',
+      ),
+        ),
       ),
     ),
   ),
+),
   'footer' => 
   array (
     'type' => 'box',
