@@ -576,18 +576,18 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Udah' || $command == 'udah' ) {
+	    if ($command == 't' || $command == 'T' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
   'type' => 'flex',
-  'altText' => 'List Staff KOPI24KARAT',
+  'altText' => 'this is a flex message',
   'contents' => 
   array (
   'type' => 'bubble',
-  'header' => 
+  'body' => 
   array (
     'type' => 'box',
     'layout' => 'vertical',
@@ -595,68 +595,12 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'type' => 'text',
-        'text' => 'LIST STAFF KOPI24KARAT',
+        'type' => 'image',
+        'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553781528/24/Staff/20190328_205826.jpg',
+        'size' => 'full',
       ),
     ),
   ),
-  'hero' => 
-  array (
-    'type' => 'image',
-    'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553758996/24/Wc/1040.jpg',
-  ),
-  'body' => 
-  array (
-  'type' => 'bubble',
-  'body' => 
-  array (
-    'type' => 'box',
-    'layout' => 'horizontal',
-    'contents' => 
-    array (
-      0 => 
-      array (
-        'type' => 'box',
-        'layout' => 'vertical',
-        'contents' => 
-        array (
-          0 => 
-          array (
-            'type' => 'image',
-            'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553780580/24/Staff/1553780525922.jpg',
-            'aspectRatio' => '1:2',
-          ),
-        ),
-      ),
-      1 => 
-      array (
-        'type' => 'box',
-        'layout' => 'vertical',
-        'contents' => 
-        array (
-          0 => 
-          array (
-            'type' => 'text',
-            'text' => 'flex=1',
-            'flex' => 1,
-            'gravity' => 'center',
-          ),
-          1 => 
-          array (
-            'type' => 'separator',
-          ),
-          2 => 
-          array (
-            'type' => 'text',
-            'text' => 'flex=1',
-            'flex' => 1,
-            'gravity' => 'center',
-          ),
-        ),
-      ),
-    ),
-  ),
-),
   'footer' => 
   array (
     'type' => 'box',
@@ -665,27 +609,21 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'type' => 'text',
-        'text' => 'Footer text',
+        'type' => 'spacer',
+        'size' => 'xl',
       ),
-    ),
-  ),
-  'styles' => 
-  array (
-    'header' => 
-    array (
-      'backgroundColor' => '#00ffff',
-    ),
-    'hero' => 
-    array (
-      'separator' => true,
-      'separatorColor' => '#000000',
-    ),
-    'footer' => 
-    array (
-      'backgroundColor' => '#00ffff',
-      'separator' => true,
-      'separatorColor' => '#000000',
+      1 => 
+      array (
+        'type' => 'button',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'Tap me',
+          'uri' => 'https://www.smule.com',
+        ),
+        'style' => 'primary',
+        'color' => '#0000ff',
+      ),
     ),
   ),
 ),
