@@ -606,7 +606,17 @@ if($message['type']=='text') {
     2 => 
     array (
       'type' => 'text',
-      'text' => 'Nama : King | TTL: Cianjur,29 Juli 1984| Jabatan : FOUNDER',
+      'text' => 'Nama : King',
+    ),
+    3 => 
+    array (
+      'type' => 'text',
+      'text' => 'TTL: Cianjur,29 Juli 1984',
+    ),
+    4 => 
+    array (
+      'type' => 'text',
+      'text' => 'Jabatan : FOUNDER',
     ),
     ),
   ),
