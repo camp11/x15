@@ -599,6 +599,15 @@ if($message['type']=='text') {
         'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553781528/24/Staff/20190328_205826.jpg',
         'size' => 'full',
       ),
+    1 => 
+    array (
+      'type' => 'separator',
+    ),
+    2 => 
+    array (
+      'type' => 'text',
+      'text' => 'Text in the box',
+    ),
     ),
   ),
   'footer' => 
@@ -618,7 +627,7 @@ if($message['type']=='text') {
         'action' => 
         array (
           'type' => 'uri',
-          'label' => 'Tap me',
+          'label' => 'Follow on Smule >Click here<',
           'uri' => 'https://www.smule.com',
         ),
         'style' => 'primary',
@@ -633,36 +642,6 @@ if($message['type']=='text') {
     }
 }
 //pesan bergambar
-if($message['type']=='text') {
-	    if ($command == 'haha' || $command == 'Haha' ) {
-
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array (
-  'type' => 'template',
-  'altText' => 'Mimin mengirim sticker',
-  'template' => 
-  array (
-    'type' => 'image_carousel',
-    'columns' => 
-    array (
-      0 => 
-      array (
-        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/12760021/IOS/sticker_animation@2x.png;compress=true',
-        'action' => 
-        array (
-          'type' => 'message',
-          'text' => 'haha',
-        ),
-      ),
-    ),
-  ),
-)
-            )
-        );
-    }
-}//pesan bergambar
 if($message['type']=='text') {
 	    if ($command == 'masa' || $command == 'Masa' ) {
 
