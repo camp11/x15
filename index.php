@@ -576,7 +576,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'tes' || $command == 'Tes' ) {
+	    if ($command == 'Udah' || $command == 'udah' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
@@ -647,16 +647,11 @@ if($message['type']=='text') {
           ),
           2 => 
           array (
-        'type' => 'button',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'Tap me',
-          'uri' => 'https://www.smule.com',
-        ),
-        'style' => 'primary',
-        'color' => '#0000ff',
-      ),
+            'type' => 'text',
+            'text' => 'flex=1',
+            'flex' => 1,
+            'gravity' => 'center',
+          ),
         ),
       ),
     ),
