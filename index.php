@@ -600,7 +600,7 @@ if($message['type']=='text') {
       ),
     1 => 
     array (
-      'type' => 'separator',
+      'type' => 'filler',
     ),
     2 => 
     array (
