@@ -387,7 +387,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1552134455/HFI2/WC',
+  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553758996/24/Wc',
   'altText' => 'WELCOME TO HFI',
   'baseSize' => 
   array (
@@ -399,7 +399,7 @@ if($message['type']=='text') {
     0 => 
     array (
       'type' => 'message',
-      'text' => 'Struktur',
+      'text' => 'Official',
       'area' => 
       array (
         'x' => 0,
@@ -411,7 +411,7 @@ if($message['type']=='text') {
     1 => 
     array (
       'type' => 'message',
-      'text' => 'Admin',
+      'text' => 'staff',
       'area' => 
       array (
         'x' => 520,
@@ -576,12 +576,16 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Struktur' || $command == 'struktur' || $command == 'STRUKTUR' ) {
+	    if ($command == 'Udah' || $command == 'udah' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
+  'type' => 'flex',
+  'altText' => 'List Staff KOPI24KARAT',
+  'contents' => 
+  array (
   'type' => 'bubble',
   'header' => 
   array (
@@ -599,7 +603,7 @@ if($message['type']=='text') {
   'hero' => 
   array (
     'type' => 'image',
-    'url' => 'https://example.com/flex/images/image.jpg',
+    'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553759873/24/Ofc/1040.jpg',
   ),
   'body' => 
   array (
@@ -610,7 +614,7 @@ if($message['type']=='text') {
       0 => 
       array (
         'type' => 'text',
-        'text' => 'Body text',
+        'text' => 'tes tess',
       ),
     ),
   ),
@@ -623,14 +627,24 @@ if($message['type']=='text') {
       0 => 
       array (
         'type' => 'text',
-        'text' => 'Footer text',
+        'text' => 'tesss',
       ),
     ),
   ),
-  'styles' => 
-  array (
-    'comment' => 'See the example of a bubble style object',
-  ),
+  "styles": (
+    "header": (
+      "backgroundColor": "#00ffff"
+    ),
+    "hero": (
+      "separator": true,
+      "separatorColor": "#000000"
+    ),
+    "footer": (
+      "backgroundColor": "#00ffff",
+      "separator": true,
+      "separatorColor": "#000000"
+    )
+  )
 )
             )
         );
