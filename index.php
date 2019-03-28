@@ -597,7 +597,6 @@ if($message['type']=='text') {
       array (
         'type' => 'image',
         'url' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553781528/24/Staff/20190328_205826.jpg',
-        'size' => 'full',
       ),
     1 => 
     array (
