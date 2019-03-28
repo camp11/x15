@@ -606,7 +606,7 @@ if($message['type']=='text') {
     2 => 
     array (
       'type' => 'text',
-      'text' => 'Text in the box','Text in the box','Text in the box',
+      'text' => 'Text in the box','Text in the box',
     ),
     ),
   ),
