@@ -434,7 +434,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553759873/24/Ofc',
+  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1553831889/24/Ofc2',
   'altText' => 'OFFICIAL KOPI24KARAT',
   'baseSize' => 
   array (
